@@ -201,9 +201,9 @@ def main():
     # Program ko continuously run karna
     while True:
         # Menu display karna
-        print("\n==============================")
+        print("\n****************************")
         print("   STUDENT RESULT SYSTEM")
-        print("==============================")
+        print("****************************")
         print("1. Add Student")
         print("2. View Students")
         print("3. Search Student")
@@ -211,7 +211,7 @@ def main():
         print("5. Class Average")
         print("6. Delete Student")
         print("7. Exit")
-        print("==============================")
+        print("****************************")
 
         # User se menu choice lena
         choice = input("Enter your choice: ")
