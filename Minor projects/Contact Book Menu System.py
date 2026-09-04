@@ -40,3 +40,34 @@ def view_contacts():
         for name, phone in contacts.items():
             print(name, ":", phone)
 
+while True:
+    
+    print("\n===== Contacts Book =====")
+    
+    print("1. Add contacts")
+    print("2. Search contacts")
+    print("3. Delete contacts")
+    print("4. View All contacts")
+    print("5. Exit")
+    
+    choice = input("Enter your choice:")
+    
+    if choice == "1":
+        add_contacts()
+        
+    elif choice == "2":
+        search_contacts()
+        
+    elif choice == "3":
+        delete_contacts()
+        
+    elif choice == "4":
+        view_contacts()
+        
+    elif choice == "5":
+        print("Thank you for using contact Book.")
+        break
+        
+    else:
+        print("Invalid choice! Please try Again.")
+          
