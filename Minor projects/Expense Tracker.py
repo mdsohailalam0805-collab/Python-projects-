@@ -1,3 +1,5 @@
+# Expenses Tracker
+
 expense = {}
 
 def add_expenses():
@@ -50,9 +52,9 @@ while True:
         
     elif choice == "4":
         
-        print("Thank you for using Expense Tracker.")
+        print("Thank You For Using Expense Tracker.")
         
         break
     
     else:
-        print("Invalid choice ! Please try again.")
+        print("Invalid Choice! Please Try Again.")
